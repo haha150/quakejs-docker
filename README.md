@@ -53,6 +53,10 @@ Build the image with:
 
 `docker build --add-host=content.quakejs.com:127.0.0.1 -t treyyoder/quakejs:latest .`
 
+`docker build -t quake .`
+
+`docker run -d -p 8080:80 quake`
+
 ## Credits:
 
 Thanks to [begleysm](https://github.com/begleysm) with his [fork](https://github.com/begleysm/quakejs) of [quakejs](https://github.com/inolen/quakejs) to which this was derived, aswell as his thorough [documentation](https://steamforge.net/wiki/index.php/How_to_setup_a_local_QuakeJS_server_under_Debian_9_or_Debian_10)
